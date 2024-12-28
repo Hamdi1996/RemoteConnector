@@ -37,7 +37,7 @@ Before using the project, ensure the following dependencies are installed:
 ### 1. **SSH Tunnel Configuration**
 Update the SSH and database configuration with your credentials and connection details:
 ```python
-remote_host = "206.189.103.247"              # Your remote server IP
+remote_host = ""                             # Your remote server IP
 remote_port = 3306                           # MariaDB port
 local_port = 3309                            # Local port to forward
 ssh_username = "root"                        # Replace with your SSH username
